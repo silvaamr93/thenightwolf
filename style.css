@@ -128,7 +128,8 @@ body{background:#2c1b0f;overflow-x: hidden}
 /*stars-end*/
 .container{max-width: 1170px;margin: 0 auto}
 .loading{position: relative}
-.par{width: 500px;height: 5px;background:none;border:1px solid #FFF;position:relative;margin-top: 80px;-webkit-border-radius: 20px;-moz-border-radius: 20px;-o-border-radius: 20px;-ms-border-radius: 20px;border-radius: 20px}
+.par{width: 500px;height: 5px;background:none;border:1px solid #FFF;position:relative;margin-top: 80px;
+-webkit-border-radius: 20px;-moz-border-radius: 20px;-o-border-radius: 20px;-ms-border-radius: 20px;border-radius: 20px;overflow:hidden}
 .load-par{display: block;width: 20px;height: 5px;background-color: #f1c40f;-webkit-border-radius: 20px;-moz-border-radius: 20px;-o-border-radius: 20px;-ms-border-radius: 20px;border-radius: 20px;position: absolute}
 #top{width: 50%;height: auto;margin-top:50px}
 article{display: none;position: relative;z-index: 453}
