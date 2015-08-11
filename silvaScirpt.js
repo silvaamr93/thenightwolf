@@ -15,6 +15,7 @@ website.show(function(){
 
     });
   });
+    });
   
 $(document).ready(function(){
 "use strict"; 
@@ -72,6 +73,6 @@ setInterval(function (){star.fadeTo(10000,0.3);},8000);
 
 
 });
-});
+
 
 
