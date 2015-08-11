@@ -128,13 +128,13 @@ body{background:#2c1b0f;overflow-x: hidden}
 /*stars-end*/
 .container{max-width: 1170px;margin: 0 auto}
 .loading{position: relative}
-.par{width: 500px;height: 5px;background:none;border:1px solid #FFF;position:relative;margin-top: 80px;
+.par{width: 500px;height: 5px;background:none;border:1px solid #FFF;position:relative;margin-top: 70px;
 -webkit-border-radius: 20px;-moz-border-radius: 20px;-o-border-radius: 20px;-ms-border-radius: 20px;border-radius: 20px;overflow:hidden}
 .load-par{display: block;width: 0;height: 5px;background-color: #f1c40f;-webkit-border-radius: 20px;-moz-border-radius: 20px;-o-border-radius: 20px;-ms-border-radius: 20px;border-radius: 20px;position: absolute}
-#top{width: 50%;height: auto;margin-top:50px}
+#top{width: 50%;height: auto;margin-top:45px}
 article{display: none;position: relative;z-index: 453}
 header{position: relative;z-index: 44}
-header img{width: 60%;height: auto;margin-top:80px}
+header img{width: 60%;height: auto;margin-top:75px}
 .for-web{font-size: 80px;color: #f1c40f;margin-top: 75px;font-family: 'Yanone Kaffeesatz', sans-serif;}
 .titles{font-size: 25px;color: #FFF;margin: 150px 0 50px 0;text-transform: uppercase;font-family: 'Yanone Kaffeesatz', sans-serif;}
 .skills{clear: both}
