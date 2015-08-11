@@ -130,7 +130,7 @@ body{background:#2c1b0f;overflow-x: hidden}
 .loading{position: relative}
 .par{width: 500px;height: 5px;background:none;border:1px solid #FFF;position:relative;margin-top: 80px;
 -webkit-border-radius: 20px;-moz-border-radius: 20px;-o-border-radius: 20px;-ms-border-radius: 20px;border-radius: 20px;overflow:hidden}
-.load-par{display: block;width: 20px;height: 5px;background-color: #f1c40f;-webkit-border-radius: 20px;-moz-border-radius: 20px;-o-border-radius: 20px;-ms-border-radius: 20px;border-radius: 20px;position: absolute}
+.load-par{display: block;width: 0;height: 5px;background-color: #f1c40f;-webkit-border-radius: 20px;-moz-border-radius: 20px;-o-border-radius: 20px;-ms-border-radius: 20px;border-radius: 20px;position: absolute}
 #top{width: 50%;height: auto;margin-top:50px}
 article{display: none;position: relative;z-index: 453}
 header{position: relative;z-index: 44}
@@ -165,7 +165,7 @@ text-transform: capitalize}
 .clear p{margin-top: 5px;color: transparent}
 footer{margin-top: 120px;clear: both}
 
-.media i{color: #fff;-webkit-transition: all 0.8s ease-in-out;-moz-transition: all 0.8s ease-in-out;-o-transition: all 0.8s ease-in-out;-ms-transition:all 0.8s ease-in-out;transition: all 0.8s ease-in-out}
+.media i{color: #fff;-webkit-transition: all 0.8s ease-in-out;-moz-transition: all 0.8s ease-in-out;-o-transition: all 0.8s ease-in-out;-ms-transition:all 0.8s ease-in-out;transition: all 0.8s ease-in-out;margin:3px;}
 .media i:hover{color: #c0392b}
 footer {font-size: 16px;color: #f1c40f;text-transform: capitalize;font-family: 'Source Sans Pro', sans-serif}
 footer p{margin: 5px 0}
@@ -196,8 +196,9 @@ header img {width: 90%;height: auto;margin-top: 80px}
 .skills-par{width: 350px;height: 8px}
 .skill-loading{height: 8px}
 .service p{font-size: 10px}
-footer {font-size: 16px}
+.profile img{width: 35%}
 .web{width: 30%} 
+footer {font-size: 16px}
 }
 @media all and (min-width: 768px)and (max-width: 991px){
 #top {margin-top: 40px}
@@ -205,11 +206,14 @@ header img {margin-top: 70px}
 .par{width: 350px;margin-top: 60px}
 .skills-par{width: 350px;height: 8px}
 .skill-loading{height: 5px}
+.profile img{width: 35%}
 .web{width: 30%} 
 }
 @media all and (max-width: 992px) and (min-width: 1199px){
 .par{margin-top: 80px}
-.web{width: 30%} 
+.profile img{width: 35%}
+.web{width: 30%}
+ 
 }
 @media all and (min-width: 1200px) and (max-width: 1600px){
         /*stars*/
@@ -219,6 +223,7 @@ header img {margin-top: 70px}
 .size-3 {height: 0.5px;width: 0.5px}
 .size-4 {height: 2.5px;width: 2.5px}
 .size-5 {height: 3px;width: 3px}
+.profile img{width: 35%}
 .web{width: 30%;width: 32%;overflow: hidden;margin-left: 1%} 
 }
 @media all and (min-width: 1600px){
@@ -230,7 +235,7 @@ header img {margin-top: 70px}
 .size-4 {height: 4px;width: 4px}
 .size-5 {height: 6px;width: 6px}
 .web{width: 30%}
-.skill-loading{height: 10px;}
+.skill-loading{height: 10px}
 }
 
 
