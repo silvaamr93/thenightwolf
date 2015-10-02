@@ -1,9 +1,11 @@
-$(window).load(function(){
-"use strict";  
+/*global $*/
+
+$(window).load(function () {
+    "use strict";     
 // loader
-     var loader  = $(".load-par"),
-       par = $(".loading"),
- website =$("article");
+var loader  = $(".load-par"),
+    par = $(".loading"),
+    website = $("article");
 
 loader.animate({
   width:"100%"},function(){
@@ -20,27 +22,14 @@ website.show(function(){
 $(document).ready(function(){
 "use strict"; 
 // vars
-var star = $(".style"),
- clck =$(".skton"),
- fristPar =$(".time"),
- secPar = $(".time-1"),
- therPar = $(".time-2");
+var star = $(".style");
+
 
 
 // functions
 
 
 star.fadeTo(10000,1);
-clck.click(function(){
-
-fristPar.animate({width:"60%"},2000);
-    secPar.animate({width:"93%"},2000);
-        therPar.animate({width:"70%"},2000,function(){
-          clck.fadeOut(1000);
-        });
-
-
-});
 
 
 
