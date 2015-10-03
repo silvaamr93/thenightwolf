@@ -237,9 +237,11 @@ header img {width: 90%;height: auto;margin-top: 80px}
     float: none;
     width: 100%;
     margin: auto;
+    height: auto;
+    
     }
             #skills {
-  margin-top: 40px
+  margin-top: 40px;
     }
     
 .service p{font-size: 10px}
@@ -256,6 +258,7 @@ header img {width: 90%;height: auto;margin-top: 80px}
     float: none;
     width: 100%;
     margin: auto;
+     height: auto;
     }
         #skills {
   margin-top: 40px
@@ -300,10 +303,3 @@ header img {margin-top: 70px}
 .web{width: 30%}
 
 }
-
-
-
-
-
-
-
