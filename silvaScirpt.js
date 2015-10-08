@@ -1,4 +1,23 @@
 /*global $*/
+$(window).load(function () {
+    "use strict";     
+// loader
+var loader  = $(".load-par"),
+    par = $(".loading"),
+    website = $("article");
+
+loader.animate({
+  width:"100%"},function(){
+    par.fadeOut(1000,function(){
+website.show(function(){
+	par.remove();
+	
+	});
+
+    });
+  });
+    });
+
 $(document).ready(function(){
 "use strict"; 
 // vars
