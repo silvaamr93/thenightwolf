@@ -18,7 +18,24 @@
      <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>       
             <!-- style -->
                 <link rel="stylesheet" type="text/css" href="style.css">
+<script>$(window).load(function () {
+    "use strict";     
+// loader
+var loader  = $(".load-par"),
+    par = $(".loading"),
+    website = $("article");
 
+loader.animate({
+  width:"100%"},function(){
+    par.fadeOut(1000,function(){
+website.show(function(){
+	par.remove();
+	
+	});
+
+    });
+  });
+    }); </script>
 </head>
 <body>
 <!-- stars -->
